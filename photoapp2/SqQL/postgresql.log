@@ -1,0 +1,73 @@
+2023-09-15 17:29:03.657 MSK [85151] LOG:  starting PostgreSQL 16.0 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-09-15 17:29:03.659 MSK [85151] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-15 17:29:03.659 MSK [85151] LOG:  listening on IPv6 address "::1", port 5432
+2023-09-15 17:29:03.660 MSK [85151] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-15 17:29:03.662 MSK [85154] LOG:  database system was shut down at 2023-09-15 17:29:03 MSK
+2023-09-15 17:29:03.664 MSK [85151] LOG:  database system is ready to accept connections
+2023-09-15 17:29:17.874 MSK [85151] LOG:  received fast shutdown request
+2023-09-15 17:29:17.875 MSK [85151] LOG:  aborting any active transactions
+2023-09-15 17:29:17.876 MSK [85151] LOG:  background worker "logical replication launcher" (PID 85157) exited with exit code 1
+2023-09-15 17:29:17.876 MSK [85152] LOG:  shutting down
+2023-09-15 17:29:17.876 MSK [85152] LOG:  checkpoint starting: shutdown immediate
+2023-09-15 17:29:17.910 MSK [85152] LOG:  checkpoint complete: wrote 941 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.012 s, total=0.034 s; sync files=308, longest=0.001 s, average=0.001 s; distance=4317 kB, estimate=4317 kB; lsn=0/1B81038, redo lsn=0/1B81038
+2023-09-15 17:29:17.913 MSK [85151] LOG:  database system is shut down
+2023-09-15 17:33:29.801 MSK [85463] LOG:  starting PostgreSQL 16.0 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-09-15 17:33:29.803 MSK [85463] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-15 17:33:29.803 MSK [85463] LOG:  listening on IPv6 address "::1", port 5432
+2023-09-15 17:33:29.804 MSK [85463] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-15 17:33:29.806 MSK [85466] LOG:  database system was shut down at 2023-09-15 17:29:48 MSK
+2023-09-15 17:33:29.808 MSK [85463] LOG:  database system is ready to accept connections
+2023-09-15 17:33:49.903 MSK [85515] FATAL:  database "New Server" does not exist
+2023-09-15 17:35:27.894 MSK [85463] LOG:  received fast shutdown request
+2023-09-15 17:35:27.895 MSK [85463] LOG:  aborting any active transactions
+2023-09-15 17:35:27.897 MSK [85463] LOG:  background worker "logical replication launcher" (PID 85469) exited with exit code 1
+2023-09-15 17:35:27.897 MSK [85464] LOG:  shutting down
+2023-09-15 17:35:27.897 MSK [85464] LOG:  checkpoint starting: shutdown immediate
+2023-09-15 17:35:27.912 MSK [85464] LOG:  checkpoint complete: wrote 195 buffers (1.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.007 s, total=0.016 s; sync files=135, longest=0.001 s, average=0.001 s; distance=1167 kB, estimate=1167 kB; lsn=0/1CA5778, redo lsn=0/1CA5778
+2023-09-15 17:35:27.915 MSK [85463] LOG:  database system is shut down
+2023-09-15 21:43:28.889 MSK [92882] LOG:  starting PostgreSQL 16.0 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-09-15 21:43:28.891 MSK [92882] LOG:  listening on IPv4 address "127.0.0.1", port 4321
+2023-09-15 21:43:28.891 MSK [92882] LOG:  listening on IPv6 address "::1", port 4321
+2023-09-15 21:43:28.891 MSK [92882] LOG:  listening on Unix socket "/tmp/.s.PGSQL.4321"
+2023-09-15 21:43:28.894 MSK [92885] LOG:  database system was shut down at 2023-09-15 21:42:23 MSK
+2023-09-15 21:43:28.897 MSK [92882] LOG:  database system is ready to accept connections
+2023-09-15 21:48:28.894 MSK [92883] LOG:  checkpoint starting: time
+2023-09-15 21:48:44.546 MSK [92883] LOG:  checkpoint complete: wrote 157 buffers (1.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=15.637 s, sync=0.012 s, total=15.653 s; sync files=129, longest=0.001 s, average=0.001 s; distance=863 kB, estimate=863 kB; lsn=0/1D801F0, redo lsn=0/1D801B8
+2023-09-15 21:50:52.904 MSK [92882] LOG:  received fast shutdown request
+2023-09-15 21:50:52.904 MSK [92882] LOG:  aborting any active transactions
+2023-09-15 21:50:52.907 MSK [92882] LOG:  background worker "logical replication launcher" (PID 92888) exited with exit code 1
+2023-09-15 21:50:52.908 MSK [92883] LOG:  shutting down
+2023-09-15 21:50:52.908 MSK [92883] LOG:  checkpoint starting: shutdown immediate
+2023-09-15 21:50:52.911 MSK [92883] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=777 kB; lsn=0/1D802A0, redo lsn=0/1D802A0
+2023-09-15 21:50:52.916 MSK [92882] LOG:  database system is shut down
+2023-09-15 22:36:46.152 MSK [2478] LOG:  starting PostgreSQL 16.0 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-09-15 22:36:46.153 MSK [2478] LOG:  listening on IPv6 address "::1", port 5432
+2023-09-15 22:36:46.153 MSK [2478] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-15 22:36:46.154 MSK [2478] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-15 22:36:46.157 MSK [2481] LOG:  database system was shut down at 2023-09-15 21:50:52 MSK
+2023-09-15 22:36:46.160 MSK [2478] LOG:  database system is ready to accept connections
+2023-09-15 22:36:59.263 MSK [2478] LOG:  received fast shutdown request
+2023-09-15 22:36:59.264 MSK [2478] LOG:  aborting any active transactions
+2023-09-15 22:36:59.266 MSK [2478] LOG:  background worker "logical replication launcher" (PID 2484) exited with exit code 1
+2023-09-15 22:36:59.266 MSK [2479] LOG:  shutting down
+2023-09-15 22:36:59.266 MSK [2479] LOG:  checkpoint starting: shutdown immediate
+2023-09-15 22:36:59.268 MSK [2479] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=3, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=8 kB; lsn=0/1D82398, redo lsn=0/1D82398
+2023-09-15 22:36:59.271 MSK [2478] LOG:  database system is shut down
+2023-09-15 22:37:51.488 MSK [2496] LOG:  starting PostgreSQL 16.0 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-09-15 22:37:51.490 MSK [2496] LOG:  listening on IPv6 address "::1", port 5432
+2023-09-15 22:37:51.490 MSK [2496] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-09-15 22:37:51.490 MSK [2496] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-09-15 22:37:51.493 MSK [2499] LOG:  database system was shut down at 2023-09-15 22:37:20 MSK
+2023-09-15 22:37:51.495 MSK [2496] LOG:  database system is ready to accept connections
+2023-09-15 22:42:51.482 MSK [2497] LOG:  checkpoint starting: time
+2023-09-15 22:42:52.300 MSK [2497] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.812 s, sync=0.002 s, total=0.818 s; sync files=6, longest=0.001 s, average=0.001 s; distance=48 kB, estimate=48 kB; lsn=0/1D8F080, redo lsn=0/1D8F048
+2023-09-15 22:47:51.290 MSK [2497] LOG:  checkpoint starting: time
+2023-09-15 22:47:53.826 MSK [2497] LOG:  checkpoint complete: wrote 26 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.532 s, sync=0.002 s, total=2.537 s; sync files=19, longest=0.001 s, average=0.001 s; distance=58 kB, estimate=58 kB; lsn=0/1D9DA30, redo lsn=0/1D9D9F8
+2023-09-15 22:51:03.389 MSK [2496] LOG:  received fast shutdown request
+2023-09-15 22:51:03.390 MSK [2496] LOG:  aborting any active transactions
+2023-09-15 22:51:03.393 MSK [2518] FATAL:  terminating connection due to administrator command
+2023-09-15 22:51:03.393 MSK [2496] LOG:  background worker "logical replication launcher" (PID 2502) exited with exit code 1
+2023-09-15 22:51:03.395 MSK [2497] LOG:  shutting down
+2023-09-15 22:51:03.396 MSK [2497] LOG:  checkpoint starting: shutdown immediate
+2023-09-15 22:51:03.399 MSK [2497] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=2, longest=0.001 s, average=0.001 s; distance=9 kB, estimate=53 kB; lsn=0/1DA0128, redo lsn=0/1DA0128
+2023-09-15 22:51:03.403 MSK [2496] LOG:  database system is shut down

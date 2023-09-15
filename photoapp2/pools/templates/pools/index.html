@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Фотоконкурс</title>
+</head>
+<body>
+    <h1>Главная страница</h1>
+    
+    {% if photos %}
+        <ul>
+            {% for photo in photos %}
+                <li>
+                    <img src="{{ photo.image.url }}" alt="{{ photo.title }}">
+                    <h2>{{ photo.title }}</h2>
+                    <p>{{ photo.description }}</p>
+                    <a href="{% url 'photo_detail' photo.id %}">Подробнее</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>На данный момент нет доступных фотографий.</p>
+    {% endif %}
+</body>
+</html>

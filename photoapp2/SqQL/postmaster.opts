@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/16/bin/postgres "-D" "/Users/aleks/Documents/Development/Web-Lesson/photoapp/SqQL" "-p" "5432"
