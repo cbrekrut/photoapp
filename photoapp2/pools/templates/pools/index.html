@@ -11,7 +11,7 @@
         <ul>
             {% for photo in photos %}
                 <li>
-                    <img src="{{ photo.image.url }}" alt="{{ photo.title }}">
+                    <img src="{{ photo.image }}" alt="{{ photo.title }}">
                     <h2>{{ photo.title }}</h2>
                     <p>{{ photo.description }}</p>
                     <a href="{% url 'photo_detail' photo.id %}">Подробнее</a>
